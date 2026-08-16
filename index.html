@@ -572,6 +572,10 @@
     padding: 70px 80px;
 }
 
+.modal-content img {
+    max-width: 80%;
+    height: auto;
+}
 
 /* =========================
    CLOSE BUTTON
@@ -644,6 +648,12 @@
     margin: 0 auto;
 }
 
+.wwf-hero-image {
+    width: 60% !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 /* =========================
    MODAL SECTIONS
@@ -724,11 +734,10 @@
 }
 
 .campaign-subsection img {
-    width: 100%;
-
+    width: 70%;
     height: auto;
-
     display: block;
+    margin: 0 auto;
 }
 
 /* =========================
@@ -747,10 +756,9 @@
 
 .campaign-image-row img {
     width: 100%;
-
     height: auto;
-
     display: block;
+    margin: 0 auto;
 }
 
 /*=====================
@@ -1540,6 +1548,13 @@ SOCIAL MEDIA
 /* =========================
    MOBILE — CAMPAIGN PROJECTS
 ========================= */
+@media (max-width: 768px) {
+
+    .campaign-section {
+        min-height: auto;
+
+        padding: 75px 25px;
+    }
 
 .campaign-section {
     min-height: auto;
@@ -1643,10 +1658,12 @@ SOCIAL MEDIA
 
     font-size: 12px;
 }
+}
 
 /* =========================
    MOBILE — PROJECT POP-UPS
 ========================= */
+@media (max-width: 768px) {
 
 /* Dark background around popup */
 .project-modal {
@@ -2087,6 +2104,7 @@ SOCIAL MEDIA
     margin-bottom: 35px;
 }
 
+}
     </style>
 
 </head>
@@ -2487,6 +2505,7 @@ SOCIAL MEDIA
             <img
                 src="img07.png"
                 alt="EXTINCTED WWF campaign hero image"
+                class="wwf-hero-image"
             >
 
         </section>
